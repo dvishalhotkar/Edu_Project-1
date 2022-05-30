@@ -1,0 +1,278 @@
+body{
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Header CSS */
+header{
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    background-color: #a97b52;
+    /* border: 2px solid red; */
+}
+
+#icon{
+    float: left;
+}
+
+#social{
+    float: right;
+}
+
+/* Logo CSS */
+.slogo{
+    height: 50px;
+    width: 50px;
+}
+
+/* Search CSS */
+#Search{
+    height: 470px;
+    /* width: 100%; */
+    /* border: 2px solid green; */
+    background-image: url(Images/food-wallpaper.png);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: 100% 470px;
+}
+
+#container{
+    height: 350px;
+    width: 60%;
+    /* border: 2px solid white; */
+    margin: 5% 20%;
+    position: absolute;
+}
+
+#logo{
+    height: 150px;
+    width: 150px;
+    background-color: rgba(255, 255, 255, 0.482);
+    border-radius: 50%;
+    margin: auto;
+    animation: revolve 10s infinite;
+}
+
+@keyframes revolve {
+    0% {
+        transform: rotate(30deg);
+        margin-left: 2%;
+    }
+    25% {
+        transform: rotate(90deg);
+        margin-left: 20%;
+    }
+    50% {
+        transform: rotate(180deg);
+        margin-left: 40%;    
+    }
+    75% {
+        transform: rotate(270deg);
+        margin-left: 80%;
+    }
+    100% {
+        transform: rotate(360deg);
+        margin-left: 40%;
+    }
+}
+
+#logo span{
+    margin: 2% 4%;
+    position: absolute;
+    font-size: 103px;
+}
+
+#heading{
+    font-size: 50px;
+    color: #02dbfc;
+    margin: 1% 9%
+}
+
+.dropdown{
+    position: absolute;
+    margin: 2% 0%;
+    height: 64px;
+    width: 100%;
+    /* border: 2px solid white; */
+}
+
+select{
+    height: 50px;
+    width: 40%;
+    font-size: 20px;
+    text-align: center;
+}
+
+#dropdown2{
+    width: 59%;
+}
+
+.option1 {
+    text-align: left;
+}
+
+/* QuickSearch CSS */
+#QuickSearch{
+    display: inline-block;
+    /* height: 600px; */
+    width: 80%;
+    margin: 3% 10%;
+    /* border: 2px solid blue; */
+}
+
+#quickheading{
+    display: inline-block;
+    font-size: 30px;
+    color: #a97b52;
+    /* font-weight: bold; */
+    font-family: fantasy;
+    margin: 0% 2%;
+}
+
+#quickheading:hover{
+    font-size: 40px;
+    color: green;
+}
+
+#quicksubheading{
+    display: block;
+    font-size: 20px;
+    color: rgb(98, 96, 96);
+    line-height: 2;
+    margin: 0% 2%;
+}
+
+.tilecontainer{
+    height: 180px;
+    width: 28%;
+    /* border: 2px solid black; */
+    box-shadow: 20px 20px 20px grey;
+    display: inline-block;
+    margin: 2% 2%;
+    float: left;
+    /* transform: scale(1.2); */
+    animation: dance 5s infinite;
+}
+
+@keyframes dance {
+    0% {transform: rotate(-5deg)}
+    25% {transform: rotate(0deg)}
+    50% {transform: rotate(5deg)}
+    60% {transform: scale(1.1)}
+    75% {transform: rotate(0deg)}
+    100% {transform: rotate(-5deg)}
+}
+
+.tilecontainer:hover{
+    transform: scale(1.15);
+    /* transform: skewX(20deg); */
+    /* transform: skewX(-20deg); */
+    /* transform: skewY(-20deg); */
+    /* transform: skewY(20deg); */
+    /* transform: rotate(60deg); */
+    /* transform: translate(100px, 100px) */
+}
+
+.tilecomponent1{
+    width: 50%;
+    height: 180px;
+    float: left;
+}
+
+.tilecomponent1 img{
+    width: 100%;
+    height: 180px;
+}
+
+
+.tilecomponent2{
+    width: 40%;
+    float: left;
+    margin: 18% 5%;
+}
+
+.componentheading a{
+    color: #a97b52;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.componentsubheading{
+    color: grey;
+    font-size: 15px;
+}
+
+/* Footer CSS */
+footer{
+    height: 80px;
+    /* width: 100%; */
+    /* border: 2px solid hotpink; */
+    background-color: #a97b52;
+}
+
+#footcopy{
+    text-align: center;
+    color: white;
+}
+
+.footcontact{
+    height: 70px;
+    width: 33%;
+    float: left;
+    border-left: 2px solid black;
+    text-align: center;
+    background-color: #a97b52;
+}
+
+/* Media Query  */
+@media screen and (max-width:1600px){
+   body{
+        background-color: skyblue;
+   }
+   
+   #heading {
+    font-size: 48px;
+   }
+}
+
+@media screen and (max-width:1400px){
+    body{
+        background-color: rgb(219, 182, 167);
+   }
+
+   #heading {
+    font-size: 40px;
+   }
+
+   .tilecontainer {
+    width: 43%;
+   }
+}
+
+@media screen and (max-width:1200px){
+    body{
+        background-color: rgb(229, 234, 188);
+   }
+}
+
+@media screen and (max-width:1000px){
+    body{
+        background-color: rgb(198, 240, 211);
+   }
+}
+
+@media screen and (max-width:800px){
+    body{
+        background-color: rgb(193, 189, 244);
+   }
+}
+
+@media screen and (max-width:500px){
+    body{
+        background-color: rgb(233, 186, 239);
+   }
+}

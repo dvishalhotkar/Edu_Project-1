@@ -1,0 +1,142 @@
+body{
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Header CSS */
+header{
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    background-color: #a97b52;
+    /* border: 2px solid red; */
+}
+
+#icon{
+    float: left;
+}
+
+#social{
+    float: right;
+}
+
+/* Logo CSS */
+.slogo{
+    height: 50px;
+    width: 50px;
+}
+
+
+/* Main Content */
+
+.headingText{
+    position: absolute;
+    margin-top: 7%;
+    font-size: 40px;
+    font-weight: bold;
+    /* margin: auto; */
+    margin-left: 48%;
+    /* text-align: center; */
+    display: inline-block;
+}
+
+#content{
+    height: 700px;
+    width: 80%;
+    display: inline-block;
+    margin-left: 12%;
+    position: relative;
+    margin-top: 16%;
+}
+
+#imgDiv{
+    height: 450px;
+    width: 40%;
+    float: left;
+    border: 10px groove grey;
+}
+
+
+#imgDiv img{
+    height: 450px;
+    width: 100%;
+}
+
+#contentDiv{
+    height: 450px;
+    width: 50%;
+    float: left;
+    margin-left: 5%;
+    margin-top: -2%;
+}
+
+.myStar{
+    color: green;
+}
+
+.rupee{
+    font-size: 15px;
+}
+
+.feature_container{
+    width: 100%;
+    display: inline-block;
+}
+
+.feature{
+    float: left;
+    margin-left: 5%;
+}
+
+.feature_icon{
+    height: 100px;
+    width: 100px;
+    margin-left: 2%;
+}
+
+.removeMargin{
+    margin-left: -1%;
+}
+
+h2{
+    color: green;
+    font-size: 35px;
+}
+
+.myButton{
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    background-color: rgb(148, 124, 93);
+    color: white;
+}
+
+
+/* Footer CSS */
+footer{
+    height: 80px;
+    /* width: 100%; */
+    /* border: 2px solid hotpink; */
+    background-color: #a97b52;
+}
+
+#footcopy{
+    text-align: center;
+    color: white;
+}
+
+.footcontact{
+    height: 70px;
+    width: 33%;
+    float: left;
+    border-left: 2px solid black;
+    text-align: center;
+    background-color: #a97b52;
+}
+
+.noborder{
+    border: none;
+}
